@@ -1,0 +1,31 @@
+@import "/styles/mixins/colors.scss";
+
+.container {
+    width: 100%;
+    padding: 34px 180px;
+    background-color: $purple-color;
+    border-bottom: 0.5px solid #afafaf;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.menu {
+    font-size: 22px;
+    font-family: Roboto, sans-serif;
+    a+a {
+        margin-left: 38.9px;
+    }
+}
+
+.button {
+    padding: 15px 50px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: $green-color;
+    color: white;
+    border: none;
+}

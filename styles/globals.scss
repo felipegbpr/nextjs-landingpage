@@ -100,8 +100,12 @@ a {
   text-decoration: none;
 }
 
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-schema: dark) {
   html {
-    color-scheme: dark;
+    color-scheme: dark;    
+  }
+  body {
+    color: white;
+    background-color: black;
   }
 }
